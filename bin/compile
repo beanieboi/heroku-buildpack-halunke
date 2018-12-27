@@ -1,0 +1,6 @@
+#!/bin/sh
+# bin/compile BUILD_DIR CACHE_DIR ENV_DIR
+
+set -e
+
+GEM_HOME=$1/halunke gem install halunke --no-ri --no-rdoc

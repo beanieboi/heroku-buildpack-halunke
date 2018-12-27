@@ -1,0 +1,9 @@
+#!/bin/sh
+# bin/detect <build-dir>
+
+if [ -f "$1/web.hal" ]; then
+  echo "Halunke"
+  exit 0
+else
+  exit 1
+fi
