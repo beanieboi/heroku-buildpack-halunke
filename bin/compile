@@ -3,4 +3,4 @@
 
 set -e
 
-GEM_HOME=$1/halunke gem install halunke --no-ri --no-rdoc
+GEM_HOME=$1/gems gem install halunke --no-ri --no-rdoc
